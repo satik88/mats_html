@@ -1412,6 +1412,7 @@ body {
   text-align: center;
   font-family: 'Barlow', sans-serif;
   position: relative;
+  border: 1px solid rgb(12, 209, 71);
 }
 
 .product-card__img-box::before {
