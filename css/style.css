@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 :root {
   --text-color: #2F3035;
   --main-blue: #1C62CD;
@@ -1399,6 +1400,26 @@ body {
 
 .product-card {
   margin-bottom: 80px;
+}
+
+                                              /* КАРТОЧКА ТОВАРА */
+.form_zak-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 21px;
+}
+.form_zak{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 21px;
 }
 
 .product-card__inner {
