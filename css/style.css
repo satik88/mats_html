@@ -1403,7 +1403,7 @@ body {
 }
 
                                               /* КАРТОЧКА ТОВАРА */
-                                              
+
 .form_zak-title{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -1433,7 +1433,7 @@ body {
   height: 373px;
   padding-top: 0px;
   text-align: center;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   border-radius: 5px;
   border: 1px solid #1C62CD;
@@ -1446,6 +1446,48 @@ body {
   padding: 13px 25px;
   border-radius: 3px;
 }
+
+.product-card__cart{
+  width: 279px;
+  height: 395px;
+  padding-top: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #1C62CD;
+  background-color: rgba(240, 240, 244, 1);
+}
+
+.product-card__code-price {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgba(28, 98, 205, 1);
+  border: 1px solid rgb(207, 26, 26);
+}
+.product-card__code-comp{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 7px;
+  color: rgba(28, 98, 205, 1);
+  border: 1px solid rgb(207, 26, 26);
+}
+.product-card__code-comp-text{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  text-align: left;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid rgb(207, 26, 26);
+  padding: 0px 0px 0px 27px;
+}
+
 
 .product-card__price-old {
   display: inline-block;
